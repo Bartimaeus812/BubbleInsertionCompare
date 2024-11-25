@@ -1,0 +1,9 @@
+Case 0:
+Bubble Sort random: 11212
+Insertion Sort random: 14070049726
+Bubble Sort front sorted: 2143
+Insertion Sort front sorted: 14069883616
+Bubble Sort back sorted: 2142
+Insertion Sort back sorted: 14070047011
+Bubble Sort inter sorted: 14071272640
+Insertion Sort inter sorted: 14070047376

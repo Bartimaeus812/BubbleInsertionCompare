@@ -9,8 +9,8 @@ void swap(int* a, int* b) {
     *b = tmp;
 }
 
-int bubbleSort(int* arr, int length) {
-    int n = 0;
+long long bubbleSort(int* arr, int length) {
+    long long n = 0;
     bool isSorted = false;
     while (!isSorted) {
         isSorted = true;
@@ -26,14 +26,15 @@ int bubbleSort(int* arr, int length) {
     return n;
 }
 
-int insertionSort(int* arr, int length) {
-    int n = 0;
+long long insertionSort(int* arr, int length) {
+    long long n = 0;
     for (int i = 1; i<length; i++) {
+        n++;
         if (arr[i]<arr[i-1]) {
             int tmp = arr[i];
             for (int j = i-1; j>0; j--) {
-                arr[j+1] = arr[j];
                 n++;
+                arr[j+1] = arr[j];
                 if (j==0||arr[j-1]<tmp) {
                     arr[j] = tmp;
                     break;
@@ -110,9 +111,9 @@ void display(int* arr, int length) {
 int main() {
     int cases;
     ifstream ins("input");
-    ofstream outs("output.txt");
     ins >> cases;
     for (int i = 0; i<cases; i++) {
+        ofstream outs("output");
         int length,range,tests;
         ins >> length >> range >> tests;
         long long n0a,n0b,n1a,n1b,n2a,n2b,n3a,n3b;
@@ -156,12 +157,13 @@ int main() {
             delete[] arr3b;
             cout << i << '/' << cases << '\t' << (j+1) << '/' << tests << '\n';
         }
-        outs << "Case " << i << ":\nBubble Sort random: " << (n0a/tests) << "\nInsertion Sort random: " << (n0b/tests);
-        outs << "\nBubble Sort front sorted: " << (n1a/tests) << "\nInsertion Sort front sorted: " << (n1b/tests);
-        outs << "\nBubble Sort back sorted: " << (n2a/tests) << "\nInsertion Sort back sorted: " << (n2b/tests);
-        outs << "\nBubble Sort inter sorted: " << (n3a/tests) << "\nInsertion Sort inter sorted: " << (n3b/tests) << '\n';
+        long long total = tests;
+        outs << "Case " << i << ":\nBubble Sort random: " << (n0a/total) << "\nInsertion Sort random: " << (n0b/total);
+        outs << "\nBubble Sort front sorted: " << (n1a/total) << "\nInsertion Sort front sorted: " << (n1b/total);
+        outs << "\nBubble Sort back sorted: " << (n2a/total) << "\nInsertion Sort back sorted: " << (n2b/total);
+        outs << "\nBubble Sort inter sorted: " << (n3a/total) << "\nInsertion Sort inter sorted: " << (n3b/total) << '\n';
         cout << (i+1) << " / " << cases << '\n';
+        outs.close();
     }
     cout << '\n';
-    outs.close();
 }

@@ -1,0 +1,90 @@
+Case 0:
+Bubble Sort random: 11212
+Insertion Sort random: 14070157958
+Bubble Sort front sorted: 2143
+Insertion Sort front sorted: 14069883517
+Bubble Sort back sorted: 2142
+Insertion Sort back sorted: 14070155243
+Bubble Sort inter sorted: 14071272640
+Insertion Sort inter sorted: 14070155608
+Case 1:
+Bubble Sort random: 1214424
+Insertion Sort random: 14070452654
+Bubble Sort front sorted: 247373
+Insertion Sort front sorted: 14069899275
+Bubble Sort back sorted: 247756
+Insertion Sort back sorted: 14070173584
+Bubble Sort inter sorted: 14072194100
+Insertion Sort inter sorted: 14070191447
+Case 2:
+Bubble Sort random: 1225706
+Insertion Sort random: 14070455518
+Bubble Sort front sorted: 249539
+Insertion Sort front sorted: 14069899426
+Bubble Sort back sorted: 249912
+Insertion Sort back sorted: 14070173748
+Bubble Sort inter sorted: 14072197843
+Insertion Sort inter sorted: 14070192232
+Case 3:
+Bubble Sort random: 32012910
+Insertion Sort random: 14077749329
+Bubble Sort front sorted: 6669677
+Insertion Sort front sorted: 14070290364
+Bubble Sort back sorted: 6672138
+Insertion Sort back sorted: 14070628464
+Bubble Sort inter sorted: 14096844742
+Insertion Sort inter sorted: 14071096516
+Case 4:
+Bubble Sort random: 32311474
+Insertion Sort random: 14077822038
+Bubble Sort front sorted: 6729717
+Insertion Sort front sorted: 14070294238
+Bubble Sort back sorted: 6732190
+Insertion Sort back sorted: 14070632956
+Bubble Sort inter sorted: 14097012231
+Insertion Sort inter sorted: 14071117402
+Case 5:
+Bubble Sort random: 32588170
+Insertion Sort random: 14077901266
+Bubble Sort front sorted: 6784130
+Insertion Sort front sorted: 14070298526
+Bubble Sort back sorted: 6786546
+Insertion Sort back sorted: 14070637918
+Bubble Sort inter sorted: 14097231190
+Insertion Sort inter sorted: 14071126910
+Case 6:
+Bubble Sort random: 32588254
+Insertion Sort random: 14077901287
+Bubble Sort front sorted: 6784149
+Insertion Sort front sorted: 14070298527
+Bubble Sort back sorted: 6786566
+Insertion Sort back sorted: 14070637918
+Bubble Sort inter sorted: 14097231210
+Insertion Sort inter sorted: 14071126912
+Case 7:
+Bubble Sort random: 33704103
+Insertion Sort random: 14078219181
+Bubble Sort front sorted: 7006642
+Insertion Sort front sorted: 14070315719
+Bubble Sort back sorted: 7008985
+Insertion Sort back sorted: 14070658023
+Bubble Sort inter sorted: 14098151429
+Insertion Sort inter sorted: 14071165484
+Case 8:
+Bubble Sort random: 34293253
+Insertion Sort random: 14078362206
+Bubble Sort front sorted: 7126023
+Insertion Sort front sorted: 14070323348
+Bubble Sort back sorted: 7128385
+Insertion Sort back sorted: 14070666923
+Bubble Sort inter sorted: 14098589110
+Insertion Sort inter sorted: 14071192629
+Case 9:
+Bubble Sort random: 34589571
+Insertion Sort random: 14078436029
+Bubble Sort front sorted: 7185535
+Insertion Sort front sorted: 14070327291
+Bubble Sort back sorted: 7187813
+Insertion Sort back sorted: 14070671489
+Bubble Sort inter sorted: 14098807878
+Insertion Sort inter sorted: 14071201424

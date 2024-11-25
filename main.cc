@@ -111,12 +111,13 @@ void display(int* arr, int length) {
 int main() {
     int cases;
     ifstream ins("input");
+    ofstream outs("output");
     ins >> cases;
     for (int i = 0; i<cases; i++) {
-        ofstream outs("output");
         int length,range,tests;
         ins >> length >> range >> tests;
         long long n0a,n0b,n1a,n1b,n2a,n2b,n3a,n3b;
+        n0a = n0b = n1a = n1b = n2a = n2b = n3a = n3b = 0;
         for (int j = 0; j<tests; j++) {
             int* arr0a = create_array(length,range);
             int* arr0b = new int[length];
@@ -163,7 +164,16 @@ int main() {
         outs << "\nBubble Sort back sorted: " << (n2a/total) << "\nInsertion Sort back sorted: " << (n2b/total);
         outs << "\nBubble Sort inter sorted: " << (n3a/total) << "\nInsertion Sort inter sorted: " << (n3b/total) << '\n';
         cout << (i+1) << " / " << cases << '\n';
-        outs.close();
     }
     cout << '\n';
+    outs << "et pour l'extra feneggel\n";
+    int* arr = new int[10000];
+    for (int i = 0; i<10000; i++) {
+        arr[i] = i;
+    }
+    arr[10000-1] = 0;
+    int* arr2 = new int[10000];
+    copy(arr,arr+10000,arr2);
+    outs << "Bubble Sort minimum at right end: " << bubbleSort(arr,10000) << "\nInsertion Sort minimum at right end: " << insertionSort(arr2,10000) << '\n';
+    outs.close();
 }

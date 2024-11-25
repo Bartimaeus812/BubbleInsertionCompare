@@ -1,9 +1,93 @@
 Case 0:
 Bubble Sort random: 11212
-Insertion Sort random: 14070049726
+Insertion Sort random: 2979
 Bubble Sort front sorted: 2143
-Insertion Sort front sorted: 14069883616
+Insertion Sort front sorted: 251
 Bubble Sort back sorted: 2142
-Insertion Sort back sorted: 14070047011
-Bubble Sort inter sorted: 14071272640
-Insertion Sort inter sorted: 14070047376
+Insertion Sort back sorted: 264
+Bubble Sort inter sorted: 6327
+Insertion Sort inter sorted: 628
+Case 1:
+Bubble Sort random: 1203211
+Insertion Sort random: 295694
+Bubble Sort front sorted: 245230
+Insertion Sort front sorted: 16757
+Bubble Sort back sorted: 245613
+Insertion Sort back sorted: 19340
+Bubble Sort inter sorted: 921454
+Insertion Sort inter sorted: 36835
+Case 2:
+Bubble Sort random: 11282
+Insertion Sort random: 2963
+Bubble Sort front sorted: 2166
+Insertion Sort front sorted: 249
+Bubble Sort back sorted: 2156
+Insertion Sort back sorted: 262
+Bubble Sort inter sorted: 3743
+Insertion Sort inter sorted: 884
+Case 3:
+Bubble Sort random: 30787204
+Insertion Sort random: 7298809
+Bubble Sort front sorted: 6420137
+Insertion Sort front sorted: 395937
+Bubble Sort back sorted: 6422225
+Insertion Sort back sorted: 459715
+Bubble Sort inter sorted: 24646905
+Insertion Sort inter sorted: 909519
+Case 4:
+Bubble Sort random: 298564
+Insertion Sort random: 73208
+Bubble Sort front sorted: 60040
+Insertion Sort front sorted: 4373
+Bubble Sort back sorted: 60051
+Insertion Sort back sorted: 4991
+Bubble Sort inter sorted: 167483
+Insertion Sort inter sorted: 21386
+Case 5:
+Bubble Sort random: 276695
+Insertion Sort random: 79726
+Bubble Sort front sorted: 54412
+Insertion Sort front sorted: 4786
+Bubble Sort back sorted: 54356
+Insertion Sort back sorted: 5460
+Bubble Sort inter sorted: 218955
+Insertion Sort inter sorted: 10008
+Case 6:
+Bubble Sort random: 83
+Insertion Sort random: 30
+Bubble Sort front sorted: 19
+Insertion Sort front sorted: 10
+Bubble Sort back sorted: 19
+Insertion Sort back sorted: 9
+Bubble Sort inter sorted: 20
+Insertion Sort inter sorted: 11
+Case 7:
+Bubble Sort random: 1115849
+Insertion Sort random: 318892
+Bubble Sort front sorted: 222492
+Insertion Sort front sorted: 18190
+Bubble Sort back sorted: 222419
+Insertion Sort back sorted: 21103
+Bubble Sort inter sorted: 920213
+Insertion Sort inter sorted: 39569
+Case 8:
+Bubble Sort random: 589150
+Insertion Sort random: 143723
+Bubble Sort front sorted: 119381
+Insertion Sort front sorted: 8328
+Bubble Sort back sorted: 119400
+Insertion Sort back sorted: 9599
+Bubble Sort inter sorted: 437650
+Insertion Sort inter sorted: 27832
+Case 9:
+Bubble Sort random: 296318
+Insertion Sort random: 74322
+Bubble Sort front sorted: 59512
+Insertion Sort front sorted: 4442
+Bubble Sort back sorted: 59427
+Insertion Sort back sorted: 5064
+Bubble Sort inter sorted: 218768
+Insertion Sort inter sorted: 9293
+et pour l'extra feneggel
+Bubble Sort minimum at right end: 99989999
+Insertion Sort minimum at right end: 19997
